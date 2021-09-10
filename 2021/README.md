@@ -1,3 +1,4 @@
+
 # SCPC 2020
 - 재미로 참가
 
@@ -23,18 +24,19 @@
 5|Hanoi Tower|![progress](https://progress-bar.dev/0/?scale=500&suffix=/500)|Heuristic
 
 ### 후기
-풀이 실수가 좀 있었던 라운드였다. 2번은 괜히 꼬아서 생각하는 바람에 TLE 몇 번을 받았다가 고쳤다. 5번은 만점자가 하나도 없길래 그냥 버리고, 본선 참가는 해야되니까 4번을 푸는데 집중했다. 패턴 문자열이 여러 개라 Aho-Corasick을 쓰면 되는 문제인데, 왜인지 모르겠지만 대회 중에는 KMP로 풀려 했다. 물론 부분문제 2까지는 KMP로 풀리는데, 그냥 naive 풀이 제출해도 똑같이 209점까지 긁혀서 의미는 없었다. 대회 끝나자마자 왜 그랬지?라는 생각이 들었다. 그래도 본선 갔으니 뭐.
+풀이 실수가 좀 있었던 라운드였다. 2번은 괜히 꼬아서 생각하는 바람에 TLE 몇 번을 받았다가 고쳤다. 5번은 만점자가 하나도 없길래 그냥 버리고, 본선 참가는 해야되니까 4번을 푸는데 집중했다. 패턴 문자열이 여러 개라 Aho-Corasick을 쓰면 되는 문제인데, 왜인지 모르겠지만 대회 중에는 KMP로 풀려 했다. 물론 부분문제 2까지는 KMP로 풀리는데, 그냥 naive 풀이 제출해도 똑같이 209점까지 긁혀서 의미는 없었다. 대회 끝나자마자 왜 그랬지?라는 생각이 들었다. 그래도 뭐 참가상 수집 성공. (장패드, 가방, 티셔츠가 없어서 좀 김 빠지긴 했다...)
+
 
 ## Final (9/4 TBD)
-- 참가상 수집 성공!
-- 특별상 받기
-
 ||Prob|Score|Detail|
 |---|---|---|---|
-1||![progress](https://progress-bar.dev/0/?scale=100&suffix=/100)|
-2||![progress](https://progress-bar.dev/0/?scale=197&suffix=/200)|
-3||![progress](https://progress-bar.dev/0/?scale=300&suffix=/300)|
-4||![progress](https://progress-bar.dev/0/?scale=400&suffix=/400)|
-5||![progress](https://progress-bar.dev/0/?scale=500&suffix=/500)|
+1|최솟값, 중앙값, 최댓값|![progress](https://progress-bar.dev/200/?scale=200&suffix=/200)|
+2|산탄총 2|![progress](https://progress-bar.dev/0/?scale=250&suffix=/250)|
+3|1등 단어|![progress](https://progress-bar.dev/0/?scale=250&suffix=/250)|
+4|통신망 만들기|![progress](https://progress-bar.dev/0/?scale=400&suffix=/400)|
+5|산불 진압 시뮬레이션|![progress](https://progress-bar.dev/0/?scale=400&suffix=/400)|
 
 ### 후기
+올해 1번은 만점자 수가 상대적으로 적었지만 풀이 자체는 굉장히 쉬웠다. 그렇다고 내가 엄청 빨리 풀지는 못 했는데, 이유는 M=1인 케이스 처리 안 해서... 이거 하나 못 찾아서 진짜로 2시간 동안 디버깅 했다ㅡㅡ
+3번 만점자가 있길래 먼저 봤는데, 문제가 "SA! ~~Wanz!~~"라고 크게 외치고 있었다 (문자열 문제에서 banana로 예시를 든다? 아무튼 SA임). 그래서 날로 먹는 상상을 하고 있었는데? 어림도 없지! 1번 고치는 동안 조금씩 배가 아팠는데 SA 절반 정도 짜다가 너무 아파서 그냥 대회 종료했다. 그냥 화장실 갔다오면 되지 굳이? 라고 하기엔 대회 종료 후에도 꽤 오랬동안 아팠다;
+이번 대회를 통해 알고리즘 실력이 많이 녹슬었다는 느낌을 받았다. ~~그니까 시간 남을 때 틈틈이 문제나 풀어라 동규야;; 어휴 정말~~
